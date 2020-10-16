@@ -20,7 +20,7 @@ class Detail extends Component {
               <img className="img-fluid" src={blog.thumbnail} />
             </div>
             <div className="col-6">
-              <div className="text-justify datail">{blog.detail}</div>
+              <div className="text-justify detail">{blog.detail}</div>
 
               <hr />
               <h5 className="text-success">
@@ -33,6 +33,15 @@ class Detail extends Component {
             </div>
           </div>
         </div>
+        <style jsx>{`
+          .title {
+            color: darkgreen;
+            text-align: center;
+          }
+          .detail {
+            color: black;
+          }
+        `}</style>
       </Layout>
     );
   }
