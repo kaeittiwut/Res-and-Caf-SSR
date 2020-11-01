@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "dev-express": "node server.js",
-    "start-express": "NODE_ENV=production node server.js"
+    "start-express-linux": "NODE_ENV=production node server.js", 
+    "start-express-windows": "SET NODE_ENV=production && node server.js" 
   },
   "keywords": [],
   "author": "",
